@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 
 body{
+  font-family: 'Nunito', sans-serif;
   font-size: 14px;
   color: #000;
 }
@@ -10,12 +12,20 @@ body{
 }
 
 footer{
-  background-color: pink;
+  background-color: #E2ABBD;
   color: #fff;
 }
 
 footer .social ul li{
   margin-left: 25px;
+}
+
+footer .social ul li a{
+  color: #fff;
+}
+
+.title{
+  color: #E2ABBD;
 }
 
 .flex-box{
@@ -67,9 +77,16 @@ a{
   text-align: center;
 }
 
+section{
+  margin-bottom: 120px;
+}
+
+.main-menu li a{
+  color: #E2ABBD;
+}
 .slide{
   height: 80vh;
-  background-color: pink;
+  background-color: #E2ABBD;
   color: #fff;
 }
 
