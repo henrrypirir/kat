@@ -21,7 +21,7 @@ $(function() {
     $('.overlay').fadeIn("slow");
   });
 
-  $('.overlay .close').click(function(event) {
+  $('.overlay .close').click(function() {
     $('.overlay').fadeOut("slow", function() {
       $('.content .body iframe').remove();
     })
