@@ -12,17 +12,26 @@ body{
 }
 
 .flex-box{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
 }
 .flex-space-center{
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 
 .flex-space-around{
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
 .flex-align-center{
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -58,6 +67,7 @@ a{
 
 @media (max-width: 440px) {
   .page-project .project{
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
   .page-project .project .image,
