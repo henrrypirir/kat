@@ -284,6 +284,10 @@ section{
   background-size: contain;
 }
 
+.contact .contact-info{
+  margin-left: 75px;
+}
+
 @media (max-width: 770px) {
   .projects .projects-list .project-item{
     height: 275px !important;
