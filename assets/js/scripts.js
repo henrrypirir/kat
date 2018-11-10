@@ -25,6 +25,8 @@ $(function() {
     $('.overlay').fadeOut("slow", function() {
       $('.content .body iframe').remove();
     })
-  })
+  });
+
+  $('.slider').bxSlider();
 
 });
