@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
-@font-face {
-  font-family: 'LucidaGrande';
-  src: url('../fonts/LucidaGrande/LucidaGrande.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/LucidaGrande/LucidaGrande.woff') format('woff'),
-       url('../fonts/LucidaGrande/LucidaGrande.ttf')  format('truetype'),
-       url('../fonts/LucidaGrande/LucidaGrande.svg#LucidaGrande') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 body{
   font-family: 'Nunito', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
+}
+
+h1{
+  font-size:3.5rem;
+}
+
+h2{
+  font-size:2rem;
+}
+
+h3{
+  font-size:1.75rem;
+}
+
+h4{
+  font-size:1.5rem;
 }
 
 .overlay{
@@ -57,8 +63,10 @@ body{
   border: 0;
 }
 
-.font-lucida-grande{
-  font-family: 'LucidaGrande', sans-serif;
+.title-stroke{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 0.05px;
 }
 
 .container{
