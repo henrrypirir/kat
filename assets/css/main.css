@@ -266,6 +266,7 @@ section{
   left: 0;
   bottom: 0;
   right: 0;
+  text-transform: uppercase;
   background-color: rgba(255,192,203,.7);
   color: #fff;
   -webkit-transition: all .5s ease-in-out;
