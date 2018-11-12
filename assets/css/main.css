@@ -364,4 +364,13 @@ section{
   .about .about-body{
     font-size: 20px;
   }
+
+  .contact{
+    background-position: -140px center;
+    background-size: cover;
+  }
+
+  .contact .contact-body{
+    text-align: right;
+  }
 }
