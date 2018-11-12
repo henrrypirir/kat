@@ -83,10 +83,6 @@ h1{
   color: #E2ABBD;
 }
 
-#projects .row:nth-of-type(1) .col:nth-of-type(2) .project-item{
-  height: 595px;
-}
-
 .project-item{
   position: relative;
   height: 285px;
@@ -150,6 +146,11 @@ h1{
   margin-left: 75px;
 }
 
+@media (min-width: 768px){
+  #projects .container > .row:nth-of-type(1) > div:nth-child(2) .project-item{
+    height: 595px;
+  }
+}
 
 @media (max-width: 440px) {
   .overlay .body .close{
