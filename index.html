@@ -1,202 +1,207 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>PORTAFOLIO</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
     <div class="overlay">
-      <div class="content flex-box flex-space-center flex-align-center"><div class="body"><span class="close">✖</span></div></div>
+      <div class="content d-flex justify-content-center align-items-center"><div class="body"><span class="close">✖</span></div></div>
     </div>
 
-    <input type="checkbox" id="menu-bar" style="display: none;">
-    <header class="main-header">
-      <div class="container">
-        <label class="hamburguesa" for="menu-bar">
-					<span></span>
-					<span></span>
-					<span></span>
-				</label>
-        <nav class="main-menu">
-          <ul class="menu flex-box flex-space-around">
-            <li><a href="./acerca.html">ACERCA DE</a></li>
-            <li><a href="./index.html#portfolio">PORTAFOLIO</a></li>
-            <li><a href="./contacto.html">CONTACTO</a></li>
-          </ul>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+          <a class="nav-link" href="./acerca.html">ACERCA DE</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link active" href="./index.html#projects">PORTAFOLIO</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="./contacto.html">CONTACTO</a>
+          </li>
+        </ul>
       </div>
-    </header>
-    <main>
-      <section class="slider pink-section">
-        <div class="slide height-100 flex-box flex-space-center flex-align-center">
-          <div class="container text-center">
-            <h1 class="title-stroke">PASE ADELANTE</h1>
-          </div>
-        </div>
-      </section>
+    </nav>
 
-      <section id="portfolio" class="projects">
-        <div class="container">
-          <div class="header">
-            <h2 class="title text-center">PORTAFOLIO</h2>
-          </div>
-        </div>
-        <div class="page1200">
-          <div class="projects-list">
-            <div class="first-list">
-              <div class="project-item">
-                <a href="./projects/revista-arrupe.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/test.png" alt="Revista Arrupe">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>Revista Arrupe </h3>
-                  </div>
-                </a>
+    <div id="slider" class="height-90 d-flex justify-content-center align-items-center">
+      <div class="container text-center">
+        <h1 class="title-stroke">PASE ADELANTE</h1>
+      </div>
+    </div>
+
+
+    <div id="projects">
+      <div class="container">
+        <h2 class="title text-center">PORTAFOLIO</h2>
+        <div class="row">
+          <div class="col">
+            <div class="row">
+              <div class="col-12">
+                <div class="project-item">
+                  <a href="./projects/fundacion-sobrevivientes.html" class="popup">
+                    <div class="image">
+                      <img src="./assets/images/fundacion-sobrevivientes/mockup_final2.jpg" alt="Fundacion sobrevivientes">
+                    </div>
+                    <div class="info text-center text-center d-flex justify-content-center align-items-center">
+                      <h3>Fundación Sobrevivientes</h3>
+                    </div>
+                  </a>
+                </div>
               </div>
 
-              <div class="project-item">
-                <a href="./projects/fundacion-sobrevivientes.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/fundacion-sobrevivientes/mockup_final2.jpg" alt="Fundacion sobrevivientes">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>Fundación Sobrevivientes</h3>
-                  </div>
-                </a>
+              <div class="col-12">
+                <div class="project-item">
+                  <a href="./projects/mindful.html" class="popup">
+                    <div class="image">
+                      <img src="./assets/images/mindful/bolsa.jpg" alt="Mindful Guatemala">
+                    </div>
+                    <div class="info text-center text-center d-flex justify-content-center align-items-center">
+                      <h3>Mindful Guatemala</h3>
+                    </div>
+                  </a>
+                </div>
               </div>
-
-              <div class="project-item">
-                <a href="./projects/mindful.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/mindful/bolsa.jpg" alt="Mindful Guatemala">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>Mindful Guatemala</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="clear"></div>
             </div>
-
-            <div class="second-list flex-box flex-space-between flex-wrap">
-              <div class="project-item">
-                <a href="./projects/trata-mujeres.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/trata-mujeres/ilustracionrevista.png" alt="Ilustracion trata de mujeres">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>ILUSTRACIÓN TRATA DE MUJERES</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="project-item">
-                <a href="./projects/katherine-alarcon.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/katherine-alarcon/discokatherine.png" alt="Katherine Alarcon">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>KATHERINE ÁLARCON </h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="project-item">
-                <a href="./projects/lego.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/lego/lego2.jpg" alt="Lego">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>LEGO</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="project-item">
-                <a href="./projects/revista-rara.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/revista-rara/mockup_escritorio2.jpg" alt="Pagina Web Revista Rara">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>PÁGINA WEB REVISTA RARA</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="project-item">
-                <a href="./projects/servichef.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/servichef/servichef.jpg" alt="Servichef">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>SERVICHEF</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="project-item">
-                <a href="./projects/tortrix.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/tortrix/tortrix.png" alt="Tortrix">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>TORTRIX</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="project-item">
-                <a href="./projects/unwomen.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/unwomen/unwomen2.jpg" alt="Unwomen">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>UNWOMEN</h3>
-                  </div>
-                </a>
-              </div>
-
-              <div class="project-item">
-                <a href="./projects/prensa-muro.html" class="popup">
-                  <div class="image">
-                    <img src="./assets/images/prensa-muro/prensamuro.jpg" alt="Prensa Muro">
-                  </div>
-                  <div class="info flex-box flex-space-center flex-align-center text-center">
-                    <h3>PRENSA MURO</h3>
-                  </div>
-                </a>
-              </div>
-
+          </div>
+          <div class="col">
+            <div class="project-item">
+              <a href="./projects/revista-arrupe.html" class="popup">
+                <div class="image">
+                  <img src="./assets/images/test.png" alt="Revista Arrupe">
+                </div>
+                <div class="info text-center text-center d-flex justify-content-center align-items-center">
+                  <h3>Revista Arrupe </h3>
+                </div>
+              </a>
             </div>
           </div>
         </div>
-      </section>
-    </main>
+        <div class="row">
+          <div class="col-3">
+            <div class="project-item">
+              <a href="./projects/trata-mujeres.html" class="popup">
+                <div class="image">
+                  <img src="./assets/images/trata-mujeres/ilustracionrevista.png" alt="Ilustracion trata de mujeres">
+                </div>
+                <div class="info text-center d-flex justify-content-center align-items-center">
+                  <h3>ILUSTRACIÓN TRATA DE MUJERES</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="project-item">
+              <a href="./projects/katherine-alarcon.html" class="popup">
+                <div class="image">
+                  <img src="./assets/images/katherine-alarcon/discokatherine.png" alt="Katherine Alarcon">
+                </div>
+                <div class="info text-center d-flex justify-content-center align-items-center">
+                  <h3>KATHERINE ÁLARCON </h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="project-item">
+              <a href="./projects/lego.html" class="popup">
+                <div class="image">
+                  <img src="./assets/images/lego/lego2.jpg" alt="Lego">
+                </div>
+                <div class="info text-center d-flex justify-content-center align-items-center">
+                  <h3>LEGO</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="project-item">
+              <a href="./projects/revista-rara.html" class="popup">
+                <div class="image">
+                  <img src="./assets/images/revista-rara/mockup_escritorio2.jpg" alt="Pagina Web Revista Rara">
+                </div>
+                <div class="info text-center d-flex justify-content-center align-items-center">
+                  <h3>PÁGINA WEB REVISTA RARA</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="project-item">
+              <a href="./projects/servichef.html" class="popup">
+                <div class="image">
+                  <img src="./assets/images/servichef/servichef.jpg" alt="Servichef">
+                </div>
+                <div class="info text-center d-flex justify-content-center align-items-center">
+                  <h3>SERVICHEF</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="project-item">
+              <a href="./projects/tortrix.html" class="popup">
+                <div class="image">
+                  <img src="./assets/images/tortrix/tortrix.png" alt="Tortrix">
+                </div>
+                <div class="info text-center d-flex justify-content-center align-items-center">
+                  <h3>TORTRIX</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="project-item">
+              <a href="./projects/unwomen.html" class="popup">
+                <div class="image">
+                  <img src="./assets/images/unwomen/unwomen2.jpg" alt="Unwomen">
+                </div>
+                <div class="info text-center d-flex justify-content-center align-items-center">
+                  <h3>UNWOMEN</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="project-item">
+              <a href="./projects/prensa-muro.html" class="popup">
+                <div class="image">
+                  <img src="./assets/images/prensa-muro/prensamuro.jpg" alt="Prensa Muro">
+                </div>
+                <div class="info text-center d-flex justify-content-center align-items-center">
+                  <h3>PRENSA MURO</h3>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <footer>
       <div class="container">
-        <div class="flex-box flex-space-between flex-align-center">
-          <div>
-            <p>All copyright 2018</p>
-          </div>
-          <nav class="social">
-            <ul class="menu flex-box">
-              <li><a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></li>
-              <li><a href="https://www.instagram.com/inovandoo/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a></li>
-              <li><a href="https://www.behance.net/TitiCreativity/" target="_blank"><i class="fab fa-behance-square fa-2x"></i></a></li>
-            </ul>
+        <div class="d-flex justify-content-between align-items-center">
+          <span>All copyright 2018</span>
+          <nav class="nav">
+            <a class="nav-link" href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a class="nav-link" href="https://www.instagram.com/inovandoo/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            <a class="nav-link" href="https://www.behance.net/TitiCreativity/" target="_blank"><i class="fab fa-behance-square fa-2x"></i></a>
           </nav>
         </div>
       </div>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./assets/js/scripts.js"></script>
   </body>
 </html>
