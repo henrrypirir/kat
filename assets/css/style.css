@@ -24,7 +24,11 @@ img{
 }
 
 h1{
-  font-size: 3rem;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  box-shadow: -9.21739px 9.21739px 18.4348px rgba(210, 0, 88, 0.5);
+  text-align: center;
 }
 
 .title-stroke{
